@@ -1,19 +1,20 @@
-# Web Proje - İsmet Erdem Alper
+# Kişisel Web Sitesi – İsmet Erdem Alper
 
-**Öğrenci Numarası:** b241210105  
-**Ders:** Web Teknolojileri  
-**Şehir:** Bursa  
+Bu proje Sakarya Üniversitesi 2024-2025 Bahar Dönemi Web Teknolojileri dersi kapsamında geliştirilmiştir.
 
-## Proje Açıklaması
-Bu proje, HTML, CSS ve Bootstrap kullanılarak geliştirilen kişisel bir web sitesidir.
+## İçerik
 
-## Sayfalar
-- Hakkımda
+- Hakkında Sayfası
 - Özgeçmiş
-- Şehrim (Bursa)
-- Mirasımız (Sonraki commitlerde eklenecek)
-- İlgi Alanlarım (API entegrasyonu ile)
+- Şehrim: Bursa
+- Kültürel Miras ve Futbol Takımı (Bursaspor)
+- İlgi Alanları (Video Oyunları / Çizgi Romanlar)
+- Giriş Sistemi (PHP)
+- İletişim Formu (Vue.js ile doğrulama)
 
-## Kurulum
-1. Bu repo klonlayın: `git clone [repo-url]`
-2. `index.html` dosyasını tarayıcıda açın.
+## Bilgiler
+
+- Öğrenci: İsmet Erdem Alper
+- Numara: B241210105
+- GitHub: (Repo linki buraya eklenecek)
+- Hosting: (Yayınlanan proje linki buraya eklenecek)
