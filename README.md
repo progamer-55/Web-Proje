@@ -16,5 +16,5 @@ Bu proje Sakarya Üniversitesi 2024-2025 Bahar Dönemi Web Teknolojileri dersi k
 
 - Öğrenci: İsmet Erdem Alper
 - Numara: B241210105
-- GitHub: (Repo linki buraya eklenecek)
-- Hosting: (Yayınlanan proje linki buraya eklenecek)
+- GitHub: https://github.com/progamer-55
+- Hosting: 
