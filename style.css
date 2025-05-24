@@ -1,20 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    background-image: url('../images/bursa-banner.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 80px 20px;
+h2 {
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1140px;
 }
 
 footer {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 50px;
+  padding: 15px 0;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card-body {
+  font-size: 0.95rem;
+}
+
 .slider-img {
   height: 400px;
-  width: 100%;
   object-fit: cover;
+  width: 100%;
 }
