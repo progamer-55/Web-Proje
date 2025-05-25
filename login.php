@@ -7,13 +7,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sifre = $_POST["password"] ?? '';
 
     if ($email === $dogru_email && $sifre === $dogru_sifre) {
-        echo "<h2 style='text-align:center;margin-top:50px;'>Hoşgeldiniz $sifre</h2>";
+
+        header("Location: index.html");
+        exit;
     } else {
-        header("Location: login.html");
+
+        header("Location: login.html?error=1");
         exit;
     }
 } else {
     header("Location: login.html");
     exit;
 }
-?>

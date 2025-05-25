@@ -9,14 +9,21 @@
 <body>
   <div class="container mt-5">
     <h2 class="text-center mb-4">Giriş Yap</h2>
+
+    <?php if (isset($_GET['error']) && $_GET['error'] == 1): ?>
+      <div class="alert alert-danger text-center" role="alert">
+        Hatalı e-posta veya şifre. Lütfen tekrar deneyiniz.
+      </div>
+    <?php endif; ?>
+
     <form action="login.php" method="post" class="mx-auto" style="max-width: 400px;" onsubmit="return validateForm()">
       <div class="mb-3">
         <label for="email" class="form-label">Kullanıcı Adı (Mail)</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="b241210105@sakarya.edu.tr">
+        <input type="email" class="form-control" id="email" name="email" placeholder="b241210105@sakarya.edu.tr" required>
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Şifre</label>
-        <input type="password" class="form-control" id="password" name="password" placeholder="241210105">
+        <input type="password" class="form-control" id="password" name="password" placeholder="241210105" required>
       </div>
       <button type="submit" class="btn btn-primary w-100">Giriş Yap</button>
     </form>
@@ -32,7 +39,7 @@
         return false;
       }
 
-      const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+      const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
       if (!emailPattern.test(email)) {
         alert("Geçerli bir e-posta adresi giriniz.");
         return false;
